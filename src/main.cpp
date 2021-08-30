@@ -16,7 +16,7 @@ LightSimulation ls1,ls2,ls3;
 
 void setup() {
   FastLED.addLeds<APA102,13,11,BGR>(led1,1);
-  FastLED.addLeds<APA102,9,8,BGR>(led1,1);
+  FastLED.addLeds<APA102,9,8,BGR>(led2,1);
   FastLED.setBrightness(64);
   bb_color = HeatColors_p;
   Serial.begin(9600);
